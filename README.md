@@ -1,4 +1,4 @@
-# lottery-numbers-from-bitcoin-blockchain
-lottery bitcoin blockchain
+# lottery-numbers-from-bitcoin-blockchain-node
+lottery bitcoin blockchain node
 
-**Simple example for generating random lottery numbers from the Bitcoin Blockchain**
+**Node version of a Simple example for generating random lottery numbers from the Bitcoin Blockchain**
