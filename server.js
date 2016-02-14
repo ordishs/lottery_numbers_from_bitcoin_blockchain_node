@@ -1,6 +1,7 @@
 /* globals require, process, __dirname */
 
-var app = require('express')(),
+var express = require('express'),
+    app = express(),
     http = require('http').Server(app),
     io = require('socket.io')(http),
     bitcoin = require('./bitcoin')(io);

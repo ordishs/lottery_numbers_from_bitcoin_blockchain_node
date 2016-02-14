@@ -34,7 +34,7 @@ ws.on('message', function(data, flags) {
 });
 
 function processHash(hash) {
-	process.stdout.write(".");
+	//process.stdout.write(".");
 	var b = new Buffer(hash, 'hex');
 
 	for (var i = 0; i < b.length; i++) {
@@ -70,7 +70,7 @@ function printTop6() {
 
 	io.sockets.emit('draw', JSON.stringify(numbersInOrder));
 
-	console.log(numbersInOrder);
+	//console.log(numbersInOrder);
 
 	numbers = {};
 }
