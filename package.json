@@ -1,0 +1,17 @@
+{
+  "name": "bitcoin_numbers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Masagi Limited",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "socketio": "^1.0.0",
+    "ws": "^1.0.1"
+  }
+}
